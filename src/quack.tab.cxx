@@ -603,7 +603,7 @@ namespace yy {
     break;
 
   case 5:
-#line 159 "quack.yxx"
+#line 158 "quack.yxx"
     { (yylhs.value.clazz) = new AST::Class(*(yystack_[7].value.ident), *(new AST::Ident("Obj")), 
                         *(new AST::Method(*(yystack_[7].value.ident), *(yystack_[5].value.formals), *(new AST::Ident("Nothing")), *(yystack_[2].value.block))),
                         *(yystack_[1].value.methods)); }
@@ -611,7 +611,7 @@ namespace yy {
     break;
 
   case 6:
-#line 163 "quack.yxx"
+#line 162 "quack.yxx"
     { (yylhs.value.clazz) = new AST::Class(*(yystack_[9].value.ident), *(yystack_[4].value.ident), 
                             *(new AST::Method(*(yystack_[9].value.ident), *(yystack_[7].value.formals), *(new AST::Ident("Nothing")), *(yystack_[2].value.block))), *(yystack_[1].value.methods)); }
 #line 618 "quack.tab.cxx"
@@ -1331,7 +1331,7 @@ namespace yy {
   const unsigned short
   parser::yyrline_[] =
   {
-       0,   144,   144,   151,   152,   158,   162,   168,   169,   172,
+       0,   144,   144,   151,   152,   157,   161,   168,   169,   172,
      174,   179,   180,   182,   184,   186,   195,   196,   199,   210,
      213,   216,   217,   221,   230,   232,   234,   246,   247,   262,
      265,   266,   270,   279,   280,   281,   282,   283,   287,   288,
