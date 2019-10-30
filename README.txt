@@ -15,8 +15,8 @@ handling issues.)
 To set up:
 	1) Run "make image"
 	2) Run "docker image ls" (to check it successfully
-				created the image "compilers-parser")
-	3) Run "docker run -it compilers-parser"
+				created the image "parser")
+	3) Run "docker run -it parser"
 
 The dockerfile copies from michalyoung/cis461:base, creates
 my project as proj1, and builds the program.
